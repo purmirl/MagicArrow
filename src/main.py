@@ -11,10 +11,9 @@
 """
 
 # PythonProjectStructure/src/main.py;
+from scapy.layers.inet import IP, ICMP
 
-from scapy.all import *
-
-packet = IP(dst = "8.8.8.8")/ICMP()
+packet = IP(dst = "")/ICMP()
 packet.show()
 
 
