@@ -13,8 +13,20 @@
 # PythonProjectStructure/src/main.py;
 from scapy.layers.inet import IP, ICMP
 
-packet = IP(dst = "")/ICMP()
-packet.show()
+class Main():
+    def __init__(self):
+        return
+
+    def print_rights(self):
+        print("Copyright 2020 PeTrA. All rights reserved.")
+        print("MagicArrow 1.0")
+        return
+
+
+
+# packet = IP(dst = "")/ICMP()
+# packet.show()
+
 
 
 
