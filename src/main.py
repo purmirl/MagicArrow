@@ -5,26 +5,23 @@
  Magic Arrow Project by PeTrA. 2020
  MagicArrow 1.0
  Language : Python3.8.2
- Library : scapy-Python3
+ Library : Scapy2.4.3
 
  Packet Launcher :: ARP (Address Resolution Protocol)
+ ------
+ @ main.py
+    * main python code file
 """
 
-# PythonProjectStructure/src/main.py;
+# MagicArrow/src/main.py
+
 from scapy.layers.inet import IP, ICMP
+import cui as cui
 
-class Main():
-    def __init__(self):
-        return
-
-    def print_rights(self):
-        print("Copyright 2020 PeTrA. All rights reserved.")
-        print("MagicArrow 1.0")
-        return
+cuiEngine = cui.Cui()
+cuiEngine.print_rights()
 
 
-mainFunction = Main()
-mainFunction.print_rights()
 
 # packet = IP(dst = "")/ICMP()
 # packet.show()
