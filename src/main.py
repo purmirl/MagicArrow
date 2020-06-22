@@ -23,6 +23,8 @@ class Main():
         return
 
 
+mainFunction = Main()
+mainFunction.print_rights()
 
 # packet = IP(dst = "")/ICMP()
 # packet.show()
