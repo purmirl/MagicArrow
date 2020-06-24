@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4714e883-4ec1-4db6-a433-14f5c0845ff1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,14 +106,22 @@
       <option name="project" value="LOCAL" />
       <updated>1592835343373</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cui.py is added.">
+      <created>1592835967736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592835967736</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start project" />
     <MESSAGE value="Studying Python Scapy" />
     <MESSAGE value="Studying Python Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Studying Python Class" />
+    <MESSAGE value="cui.py is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="cui.py is added." />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1592729936527">
@@ -125,10 +132,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1592729888073" />
-    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1592835342356">
+    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1592835966719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592835342356" />
+    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592835966719" />
     <state x="826" y="267" key="EnvironmentVariablesDialog" timestamp="1592729836880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -153,9 +160,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592730990921" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592835351306">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592835979963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592835351306" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592835979963" />
   </component>
 </project>

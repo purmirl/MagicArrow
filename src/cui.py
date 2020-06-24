@@ -23,3 +23,7 @@ class Cui():
         print("Copyright 2020 PeTrA. All rights reserved.")
         print("MagicArrow 1.0")
         return
+
+    def print_main_command_line(self):
+        print("main@magicarrow:~# ")
+        return
