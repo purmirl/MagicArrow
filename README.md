@@ -5,7 +5,6 @@ MagicArrow Project Repository
 ###### MagicArrow Project<p>
 ------
 ##### ** MagicArrow :: ARP Packet Launcher **
-<p>
 ###### ** ARP : Address Resolution Protocol **
 ###### ** Sender Hardware Address **
 ###### ** Sender Protocol Address **
