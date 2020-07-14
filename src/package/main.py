@@ -16,7 +16,8 @@
 # MagicArrow/src/main.py
 
 from scapy.layers.inet import IP, ICMP
-import cui as cui
+
+from package import cui as cui
 
 cuiEngine = cui.Cui()
 cuiEngine.print_rights()

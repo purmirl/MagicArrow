@@ -15,8 +15,19 @@
 
 # MagicArrow/src/cui.py
 
+
 class Cui():
     def __init__(self):
+        return
+
+    def cui_engin(self):
+        HIVE_KEY = 0
+
+        while True:
+
+            if HIVE_KEY == -1:
+               break
+
         return
 
     def print_rights(self):
@@ -27,3 +38,4 @@ class Cui():
     def print_main_command_line(self):
         print("main@magicarrow:~# ")
         return
+
