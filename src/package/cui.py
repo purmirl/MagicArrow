@@ -24,7 +24,8 @@ class Cui():
         HIVE_KEY = 0
 
         while True:
-
+            # main cui engine code
+            
             if HIVE_KEY == -1:
                break
 
