@@ -21,11 +21,16 @@ class Cui():
         return
 
     def cui_engin(self):
+        self.print_rights() # print copyright
         HIVE_KEY = 0
+        HIVE_COMMAND = 0
 
         while True:
             # main cui engine code
-            
+            self.print_main_command_line() # print main command line
+            HIVE_COMMAND = input()
+
+
             if HIVE_KEY == -1:
                break
 
