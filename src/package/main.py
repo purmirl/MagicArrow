@@ -16,11 +16,20 @@
 # MagicArrow/src/main.py
 
 from scapy.layers.inet import IP, ICMP
-
 from package import cui as cui
 
-cuiEngine = cui.Cui()
-cuiEngine.print_rights()
+
+
+def mainFunction():
+
+    cuiEngine = cui.Cui()
+    cuiEngine.print_rights()
+    return
+
+# main code start point
+mainFunction()
+
+# main conde end point
 
 
 
