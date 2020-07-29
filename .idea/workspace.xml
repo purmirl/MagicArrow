@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595856370764</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="function.py is modified.">
+      <created>1596031180111</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596031180112</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,7 +225,8 @@
     <MESSAGE value="launcher.py is added.. correction is required." />
     <MESSAGE value="cui is modified." />
     <MESSAGE value="cui is modified, function.py is added, tests/package/main.py is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="cui is modified, function.py is added, tests/package/main.py is added." />
+    <MESSAGE value="function.py is modified." />
+    <option name="LAST_COMMIT_MESSAGE" value="function.py is modified." />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1592729936527">
@@ -229,10 +237,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1592729888073" />
-    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1595856369212">
+    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1596031178144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595856369212" />
+    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596031178144" />
     <state x="826" y="267" key="EnvironmentVariablesDialog" timestamp="1592729836880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
