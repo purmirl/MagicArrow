@@ -34,6 +34,9 @@ class Cui():
 
             if HIVE_COMMAND == HIVE_COMMAND_OPTION:
                 HIVE_KEY = 1
+
+            if HIVE_COMMAND == "?":
+                self.print_main_option()
              
             if HIVE_KEY == -1:
                break
@@ -47,5 +50,10 @@ class Cui():
 
     def print_main_command_line(self):
         print("main@magicarrow:~# ")
+        return
+
+    def print_main_option(self):
+        MAIN_OPTION = "arp : make arp packet \n rate : packet launch rate per 1 second"
+        print(MAIN_OPTION)
         return
 
