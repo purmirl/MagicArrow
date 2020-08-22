@@ -1,5 +1,5 @@
-MagicArrow // Magic Arrow Project Repository
+MagicArrow
 ==============================
-### __by Purmirl & PeTrA__
+### _by Purmirl & PeTrA_
 ==============================
 ###### Copyright 2020 PeTrA. All rights reserved.<p>
