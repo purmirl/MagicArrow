@@ -1,5 +1,4 @@
 MagicArrow
 ==============================
-### _by Purmirl & PeTrA_
-==============================
-###### Copyright 2020 PeTrA. All rights reserved.<p>
+###### By _Purmirl & PeTrA_
+###### _Copyright 2020 PeTrA. All rights reserved._<p>
