@@ -52,8 +52,33 @@ class Cui():
         print("main@magicarrow:~# ")
         return
 
+    # option line
+    """ main option
+            arp
+            rate
+            services
+            show
+    """
     def print_main_option(self):
-        MAIN_OPTION = "arp : make arp packet \n rate : packet launch rate per 1 second"
+        MAIN_OPTION = "arp : make arp packet \n " \
+                      "rate : packet launch rate per 1 second \n " \
+                      "services : program's operation services \n " \
+                      "show : show program status"
         print(MAIN_OPTION)
         return
 
+    """ arp option
+            operation-code
+    """
+    def print_arp_option(self):
+        ARP_OPTION = "operation-code : set arp operation code"
+        print(ARP_OPTION)
+        return
+
+    """ arp operation code option
+            sender-hardware-address
+    """
+    def print_arp_operationCode_option(self):
+        ARP_OPERATIONCODE_OPTION = "sender-hardware-address"
+        print(ARP_OPERATIONCODE_OPTION)
+        return

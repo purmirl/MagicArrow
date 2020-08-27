@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596032569873</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="cui.py is modified.">
+      <created>1596898429659</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1596898429659</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,7 +248,8 @@
     <MESSAGE value="cui is modified, function.py is added, tests/package/main.py is added." />
     <MESSAGE value="function.py is modified." />
     <MESSAGE value="main.py is modified." />
-    <option name="LAST_COMMIT_MESSAGE" value="main.py is modified." />
+    <MESSAGE value="cui.py is modified." />
+    <option name="LAST_COMMIT_MESSAGE" value="cui.py is modified." />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1592729936527">
@@ -252,10 +260,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1592729888073" />
-    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1596032568447">
+    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1596898428147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596032568447" />
+    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596898428147" />
     <state x="826" y="267" key="EnvironmentVariablesDialog" timestamp="1592729836880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -280,10 +288,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592730990921" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596032590505">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596898443739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596032590505" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596898443739" />
     <state x="677" y="306" key="git4idea.merge.GitPullDialog" timestamp="1594557420430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
