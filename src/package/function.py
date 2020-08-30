@@ -17,34 +17,11 @@
 
 def isHexData(_data):
     tempKey = 0
+    hexData = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f']
 
-    if _data == '0':
-        tempKey = 1
-        return tempKey
-    elif _data == '1':
-        tempKey = 1
-        return tempKey
-    elif _data == '2':
-        tempKey = 1
-        return tempKey
-    elif _data == '3':
-        tempKey = 1
-        return tempKey
-    elif _data == '4':
-        tempKey = 1
-        return tempKey
-    elif _data == '5':
-        tempKey = 1
-        return tempKey
-    elif _data == '6':
-        tempKey = 1
-        return tempKey
-    elif _data == '7':
-        tempKey = 1
-        return tempKey
-    elif _data == '8':
-        tempKey = 1
-        return tempKey
-    elif _data == '9':
-        tempKey = 1
-        return tempKey
+    if _data in hexData:
+        return 1
+    else:
+        return 0
+    return 0
+

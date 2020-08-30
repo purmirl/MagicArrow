@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4714e883-4ec1-4db6-a433-14f5c0845ff1" name="Default Changelist" comment="">
+    <list default="true" id="4714e883-4ec1-4db6-a433-14f5c0845ff1" name="Default Changelist" comment="cui.py is modified.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package/cui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/package/cui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/package/function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596898429659</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="cui.py is modified.">
+      <created>1598530250042</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598530250042</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -260,10 +267,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1592729888073" />
-    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1596898428147">
+    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1598789747245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596898428147" />
+    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598789747245" />
     <state x="826" y="267" key="EnvironmentVariablesDialog" timestamp="1592729836880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -288,10 +295,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592730990921" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1596898443739">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598625415759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596898443739" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598625415759" />
     <state x="677" y="306" key="git4idea.merge.GitPullDialog" timestamp="1594557420430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
