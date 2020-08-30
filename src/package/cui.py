@@ -63,22 +63,25 @@ class Cui():
         MAIN_OPTION = "arp : make arp packet \n " \
                       "rate : packet launch rate per 1 second \n " \
                       "services : program's operation services \n " \
-                      "show : show program status"
+                      "show : show program status \n" \
+                      ""
         print(MAIN_OPTION)
         return
 
     """ arp option
             operation-code
+            sender-hardware-address
+            sender-protocol-address
+            target-hardware-address
+            target-protocol-address
     """
     def print_arp_option(self):
-        ARP_OPTION = "operation-code : set arp operation code"
+        ARP_OPTION = "operation-code : set arp operation code \n" \
+                     "sender-hardware-address : set sender hardware address (mac) \n" \
+                     "sender-protocol-address : set sender protocol address (ip \n" \
+                     "target-hardware-address : set target hardware address (mac) \n" \
+                     "target-protocol-address : set target protocol address (ip) \n" \
+                     ""
         print(ARP_OPTION)
         return
 
-    """ arp operation code option
-            sender-hardware-address
-    """
-    def print_arp_operationCode_option(self):
-        ARP_OPERATIONCODE_OPTION = "sender-hardware-address"
-        print(ARP_OPERATIONCODE_OPTION)
-        return
