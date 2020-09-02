@@ -1,4 +1,5 @@
 """
+ MagicArrow
  Copyright 2020 PeTrA. All rights reserved.
  . Python Project Structure Repository;
 
@@ -54,26 +55,25 @@ class Cui():
 
     # option line
     """ main option
-            arp
-            rate
+            set
             services
             show
     """
     def print_main_option(self):
-        MAIN_OPTION = "arp : make arp packet \n " \
-                      "rate : packet launch rate per 1 second \n " \
+        MAIN_OPTION = "set : set packet configuration \n " \
                       "services : program's operation services \n " \
                       "show : show program status \n" \
                       ""
         print(MAIN_OPTION)
         return
 
-    """ arp option
+    """ set option
             operation-code
             sender-hardware-address
             sender-protocol-address
             target-hardware-address
             target-protocol-address
+            rate
     """
     def print_arp_option(self):
         ARP_OPTION = "operation-code : set arp operation code \n" \
@@ -81,7 +81,19 @@ class Cui():
                      "sender-protocol-address : set sender protocol address (ip \n" \
                      "target-hardware-address : set target hardware address (mac) \n" \
                      "target-protocol-address : set target protocol address (ip) \n" \
+                     "rate : packet launch rate per 1 second \n" \
                      ""
         print(ARP_OPTION)
+        return
+
+    """ services option
+            start : packet launch start
+            stop : packet launch stop
+    """
+    def print_services_option(self):
+        SERVICES_OPTION = "start : packet launch start \n" \
+                          "stop : packet launch stop \n" \
+                          ""
+        print(SERVICES_OPTION)
         return
 
