@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4714e883-4ec1-4db6-a433-14f5c0845ff1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/package/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/package/cui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/package/cui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -256,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598790754319</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="cui.py is modified.">
+      <created>1599050572250</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599050572250</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -282,10 +288,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1592729888073" />
-    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1598790753312">
+    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1599050570742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598790753312" />
+    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599050570742" />
     <state x="826" y="267" key="EnvironmentVariablesDialog" timestamp="1592729836880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
