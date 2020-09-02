@@ -25,3 +25,10 @@ def isHexData(_data):
         return 0
     return 0
 
+def isHardwareAddress(_hardwareAddress):
+
+    return 0
+
+def isProtocolAddress(_protocolAddress):
+
+    return 0
