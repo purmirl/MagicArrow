@@ -58,11 +58,13 @@ class Cui():
             set
             services
             show
+            exit
     """
     def print_main_option(self):
         MAIN_OPTION = "set : set packet configuration \n " \
                       "services : program's operation services \n " \
                       "show : show program status \n" \
+                      "exit : program exit \n" \
                       ""
         print(MAIN_OPTION)
         return
