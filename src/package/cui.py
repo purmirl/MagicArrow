@@ -75,7 +75,7 @@ class Cui():
             target-protocol-address
             rate
     """
-    def print_arp_option(self):
+    def print_set_option(self):
         ARP_OPTION = "operation-code : set arp operation code \n" \
                      "sender-hardware-address : set sender hardware address (mac) \n" \
                      "sender-protocol-address : set sender protocol address (ip \n" \
