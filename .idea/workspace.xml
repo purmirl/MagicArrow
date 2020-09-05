@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4714e883-4ec1-4db6-a433-14f5c0845ff1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package/cui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/package/cui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/package/function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599142124826</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="cui.py is modified.">
+      <created>1599142431034</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599142431034</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -309,10 +316,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1592729888073" />
-    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1599142123731">
+    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1599142429963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599142123731" />
+    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599142429963" />
     <state x="826" y="267" key="EnvironmentVariablesDialog" timestamp="1592729836880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -337,10 +344,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592730990921" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598790763104">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1599142439563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598790763104" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599142439563" />
     <state x="677" y="306" key="git4idea.merge.GitPullDialog" timestamp="1594557420430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

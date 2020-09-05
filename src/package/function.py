@@ -25,9 +25,29 @@ def isHexData(_data):
         return 0
     return 0
 
+""" isHardwareAddress function
+        check that is hardware address (mac address)
+        if hardware address : return 1
+        else : return 0
+"""
 def isHardwareAddress(_hardwareAddress):
+    result = 1 # if hardware address : 1,   else : 0
+    length = len(_hardwareAddress)
 
-    return 0
+    if len != 17:
+        result = 0
+        return result
+
+    for i in range(1, 18):
+        if (i % 3) == 0:
+            if _hardwareAddress[i - 1] != ':':
+                result = 0
+                return result
+        elif isHexData(_hardwareAddress[i - 1]) == 0:
+            result = 0
+            return result
+
+    return result
 
 def isProtocolAddress(_protocolAddress):
 
