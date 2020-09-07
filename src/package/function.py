@@ -59,6 +59,14 @@ def isHardwareAddress(_hardwareAddress):
 
     return result
 
+def parseProtocolAddress(_protocolAddress):
+    length = len(_protocolAddress)
+
+    # return value : Integer a, b, c
+    for i in range(0, length):
+        
+
+
 def isProtocolAddress(_protocolAddress):
     result = 1 # if protocol address : 1,   else : 0
     length = len(_protocolAddress)
@@ -67,7 +75,21 @@ def isProtocolAddress(_protocolAddress):
         result = 0
         return result
 
-    for i in range (1, length + 1):
-        
+    if _protocolAddress[0] == '.':
+        result = 0
+        return result
+
+    dotCount = 0
+    for i in range(1, length + 1):
+        if _protocolAddress[i - 1] == '.':
+            dotCount += 1
+    if dotCount == 0 | dotCount > 3:
+        result = 0
+        return result
+
+
+
+
+
 
     return 0
