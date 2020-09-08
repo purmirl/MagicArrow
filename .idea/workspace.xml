@@ -312,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599486401327</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="function.py is modified. (making the is protocol address function)">
+      <created>1599555818168</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1599555818168</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -327,7 +334,8 @@
     <MESSAGE value="main.py is modified." />
     <MESSAGE value="cui.py is modified." />
     <MESSAGE value="function.py is modified." />
-    <option name="LAST_COMMIT_MESSAGE" value="function.py is modified." />
+    <MESSAGE value="function.py is modified. (making the is protocol address function)" />
+    <option name="LAST_COMMIT_MESSAGE" value="function.py is modified. (making the is protocol address function)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1592729936527">
@@ -338,30 +346,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1592729888073" />
-    <state x="577" y="95" key="CommitChangelistDialog2" timestamp="1599486399951">
+    <state x="525" y="38" key="CommitChangelistDialog2" timestamp="1599555816714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599486399951" />
+    <state x="525" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599555816714" />
     <state x="826" y="267" key="EnvironmentVariablesDialog" timestamp="1592729836880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="826" y="267" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592729836880" />
-    <state width="1897" height="186" key="GridCell.Tab.0.bottom" timestamp="1599554863832">
+    <state width="1897" height="186" key="GridCell.Tab.0.bottom" timestamp="1599556811198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599554863832" />
-    <state width="1897" height="186" key="GridCell.Tab.0.center" timestamp="1599554863832">
+    <state width="1897" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599556811198" />
+    <state width="1897" height="186" key="GridCell.Tab.0.center" timestamp="1599556811198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599554863832" />
-    <state width="1897" height="186" key="GridCell.Tab.0.left" timestamp="1599554863832">
+    <state width="1897" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599556811198" />
+    <state width="1897" height="186" key="GridCell.Tab.0.left" timestamp="1599556811198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599554863832" />
-    <state width="1897" height="186" key="GridCell.Tab.0.right" timestamp="1599554863832">
+    <state width="1897" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599556811198" />
+    <state width="1897" height="186" key="GridCell.Tab.0.right" timestamp="1599556811198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599554863832" />
+    <state width="1897" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599556811198" />
     <state x="922" y="157" key="SettingsEditor" timestamp="1592730990921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

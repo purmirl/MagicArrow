@@ -153,21 +153,29 @@ def isProtocolAddress(_protocolAddress):
             isPreDot = 0
 
     parseResult = parseProtocolAddress(_protocolAddress)
-    if len(parseResult[0]) > 1 & parseResult[0][0] == '0':
+    if (len(parseResult[0]) > 1) & (parseResult[0][0] == '0'):
+        result = 0
+        return result
+    elif (len(parseResult[1]) > 1) & (parseResult[1][0] == '0'):
+        result = 0
+        return result
+    elif (len(parseResult[2]) > 1) & (parseResult[2][0] == '0'):
+        result = 0
+        return result
+    elif (len(parseResult[3]) > 1) & (parseResult[3][0] == '0'):
         result = 0
         return result
 
-
-    if int(parseResult[0]) < 0 | int(parseResult[0]) > 255:
+    if (int(parseResult[0]) < 0) | (int(parseResult[0]) > 255):
         result = 0
         return result
-    elif int(parseResult[1]) < 0 | int(parseResult[1]) > 255:
+    elif (int(parseResult[1]) < 0) | (int(parseResult[1]) > 255):
         result = 0
         return result
-    elif int(parseResult[2]) < 0 | int(parseResult[2]) > 255:
+    elif (int(parseResult[2]) < 0) | (int(parseResult[2]) > 255):
         result = 0
         return result
-    elif int(parseResult[3]) < 0 | int(parseResult[3]) > 255:
+    elif (int(parseResult[3]) < 0) | (int(parseResult[3]) > 255):
         result = 0
         return result
 
