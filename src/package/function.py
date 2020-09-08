@@ -117,15 +117,21 @@ def isProtocolAddress(_protocolAddress):
     length = len(_protocolAddress)
     protocolAddressData = ['.', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
+    # check length
+    # example : 127.0.0.1.2.3.4214214123123
     if length < 7 | length > 15:
         result = 0
         return result
 
+    # check another character
+    # example : 127.0:0.1
     for i in range(0, length):
         if _protocolAddress[i] not in protocolAddressData:
             result = 0
             return result
 
+    # check dot position
+    # example : .127.0.0.1
     if _protocolAddress[0] == '.':
         result = 0
         return result
