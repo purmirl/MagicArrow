@@ -14,17 +14,19 @@
 """
 
 # MagicArrow/src/cui.py
+from package.function import isHardwareAddress
+
 
 class launcher():
-
-    def __init__(self):
+    def __init__(self, _operationCode, _senderHardwareAddress, _senderProtocolAddress, _targetHardwareAddress, _targetProtocolAddress, _rate):
+        self.operationCode = _operationCode
+        self.senderHardwareAddress = _senderHardwareAddress
+        self.senderProtocolAddress = _senderProtocolAddress
+        self.targetHardwareAddress = _targetHardwareAddress
+        self.targetProtocolAddress = _targetProtocolAddress
+        self.rate = _rate
         return
 
-    def exception_mac_error(_mac_address):
-        length = len(_mac_address)
-        if length > 17:
-            print("check the mac address size :(")
-            return
+    def launcherStart(self):
 
         return
-
