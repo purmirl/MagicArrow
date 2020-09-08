@@ -139,6 +139,8 @@ def isProtocolAddress(_protocolAddress):
         result = 0
         return result
 
+    # check dot count
+    # example : 127.0.0....1
     dotCount = 0
     for i in range(1, length + 1):
         if _protocolAddress[i - 1] == '.':
@@ -147,6 +149,8 @@ def isProtocolAddress(_protocolAddress):
         result = 0
         return result
 
+    # check continued dot
+    # example : 127..0.0.1
     isPreDot = 0
     for i in range(0, length):
         if _protocolAddress[i] == '.':
@@ -158,6 +162,8 @@ def isProtocolAddress(_protocolAddress):
         else:
             isPreDot = 0
 
+    # check 0 started number
+    # example : 127.0.0.01
     parseResult = parseProtocolAddress(_protocolAddress)
     if (len(parseResult[0]) > 1) & (parseResult[0][0] == '0'):
         result = 0
@@ -172,6 +178,8 @@ def isProtocolAddress(_protocolAddress):
         result = 0
         return result
 
+    # check number range
+    # example : 256.255.255.255
     if (int(parseResult[0]) < 0) | (int(parseResult[0]) > 255):
         result = 0
         return result
