@@ -70,6 +70,9 @@ class Cui():
         return
 
     """ set option
+            ethernet-source-mac-address
+            ethernet-destination-mac-address
+            ethernet-protocol-type
             operation-code
             sender-hardware-address
             sender-protocol-address
@@ -78,7 +81,10 @@ class Cui():
             rate
     """
     def print_set_option(self):
-        ARP_OPTION = "operation-code : set arp operation code \n" \
+        ARP_OPTION = "ethernet-source-mac-address : set ethernet source mac address \n" \
+                     "ethernet-destination-mac-address : set ethernet destination mac address \n" \
+                     "ethernet-protocol-type : set ethernet protocol type (arp, rarp) \n" \
+                     "operation-code : set arp operation code \n" \
                      "sender-hardware-address : set sender hardware address (mac) \n" \
                      "sender-protocol-address : set sender protocol address (ip \n" \
                      "target-hardware-address : set target hardware address (mac) \n" \
