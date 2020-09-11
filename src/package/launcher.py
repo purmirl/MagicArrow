@@ -14,8 +14,9 @@
 """
 
 # MagicArrow/src/cui.py
-from package.function import isHardwareAddress
 
+from package.function import isHardwareAddress
+from scapy.all import *
 
 class launcher():
     def __init__(self, _operationCode, _senderHardwareAddress, _senderProtocolAddress, _targetHardwareAddress, _targetProtocolAddress, _rate):

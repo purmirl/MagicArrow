@@ -20,14 +20,14 @@ from package import cui as cui
 
 
 
-def mainFunction():
+def main():
 
     cuiEngine = cui.Cui()
     cuiEngine.print_rights()
     return
 
 # main code start point
-mainFunction()
+main()
 
 # main conde end point
 
