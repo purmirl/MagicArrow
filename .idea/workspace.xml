@@ -353,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599835223779</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="cui.py is modified. (need the ethernet data)">
+      <created>1599836136470</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1599836136470</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -373,7 +380,8 @@
     <MESSAGE value="function.py is modified. (isProtocolAddress function is modified.)" />
     <MESSAGE value="launcher.py is modified." />
     <MESSAGE value="launcher.py is modified. (making the launcher module)" />
-    <option name="LAST_COMMIT_MESSAGE" value="launcher.py is modified. (making the launcher module)" />
+    <MESSAGE value="cui.py is modified. (need the ethernet data)" />
+    <option name="LAST_COMMIT_MESSAGE" value="cui.py is modified. (need the ethernet data)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1592729936527">
@@ -384,10 +392,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#main/0.0.1920.1040@0.0.1920.1040" timestamp="1592729888073" />
-    <state x="525" y="38" key="CommitChangelistDialog2" timestamp="1599835221838">
+    <state x="525" y="38" key="CommitChangelistDialog2" timestamp="1599836135388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="525" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599835221838" />
+    <state x="525" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599836135388" />
     <state x="826" y="267" key="EnvironmentVariablesDialog" timestamp="1592729836880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
