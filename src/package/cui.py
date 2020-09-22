@@ -108,10 +108,12 @@ class Cui():
     """ show option
             configuration
             status
+            version
     """
     def print_show_option(self):
         SHOW_OPTION = "configuration : show arp configuration \n" \
                       "status : show services status \n" \
+                      "version : show software version \n" \
                       ""
         print(SHOW_OPTION)
         return
