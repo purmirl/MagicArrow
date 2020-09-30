@@ -18,6 +18,15 @@
 from package.function import isHardwareAddress
 from scapy.all import *
 
+# please check!! arp packet structure
+"""
+    Hardware type (16bits) | Protocol Type (16bits)
+    Hardware Length (8bits) | Protocol Length (8bits) | Operation Code (16bits)
+    Sender Hardware Address (32bits)
+    Sender Protocol Address (32bits)
+    Target Hardware Address (32bits)
+    Target Protocol Address (32bits)
+"""
 class launcher():
     def __init__(self, _operationCode, _senderHardwareAddress, _senderProtocolAddress, _targetHardwareAddress, _targetProtocolAddress, _rate):
         self.operationCode = _operationCode
@@ -27,7 +36,8 @@ class launcher():
         self.targetProtocolAddress = _targetProtocolAddress
         self.rate = _rate
         return
-
+    # Scapy Usage : send arp packet
+    # send(Ether(src = SOURCE_MAC, dst = DESTINATION_MAC) / ARP(OP = OPERATION_CODE,
     def launcherStart(self):
 
         return
