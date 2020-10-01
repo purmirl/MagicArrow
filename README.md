@@ -3,7 +3,7 @@ MagicArrow
 _By Purmirl & PeTrA_   
 _Copyright 2020 PeTrA. All rights reserved._   
 
-_Arrow Project : MagicArrow_   
+_This is the Magic Arrow Project in Arrow Project_     
 _Magic Arrow Project_
 ## Dev Environment
 * _Language : Python_    
