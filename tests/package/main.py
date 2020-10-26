@@ -105,7 +105,7 @@ def isProtocolAddress(_protocolAddress):
 
     return result
 ##################################################################################################
-
+"""
 sampleData = "00.0.0.0"
 result1 = parseProtocolAddress(sampleData)
 print(result1)
@@ -113,6 +113,8 @@ print(result1)
 result2 = isProtocolAddress(sampleData)
 # print(len(sampleData))
 print(result2)
+"""
+
 
 
 

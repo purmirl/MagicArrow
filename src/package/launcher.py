@@ -41,3 +41,34 @@ class launcher():
     def launcherStart(self):
 
         return
+
+    def setOperationCode(self, _operationCode):
+        self.operationCode = _operationCode
+        return
+
+    def setSenderHardwareAddress(self, _senderHardwareAddress):
+        self.senderHardwareAddress = _senderHardwareAddress
+        return
+
+    def setSenderProtocolAddress(self, _senderProtocolAddress):
+        self.senderProtocolAddress = _senderProtocolAddress
+        return
+
+    def setTargetHardwareAddress(self, _targetHardwareAddress):
+        self.targetHardwareAddress = _targetHardwareAddress
+        return
+
+    def setTargetProtocolAddress(self, _targetProtocolAddress):
+        self.targetProtocolAddress = _targetProtocolAddress
+        return
+
+    def setRate(self, _rate):
+        self.rate = _rate
+        return
+
+    def getOperationCode(self):
+        return self.operationCode
+
+    def getSenderHardwareAddress(self):
+        return self.senderHardwareAddress
+
