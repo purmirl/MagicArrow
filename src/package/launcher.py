@@ -72,3 +72,17 @@ class launcher():
     def getSenderHardwareAddress(self):
         return self.senderHardwareAddress
 
+    def getSenderProtocolAddress(self):
+        return self.senderProtocolAddress
+
+    def getTargetHardwareAddress(self):
+        return self.targetHardwareAddress
+
+    def getTragetProtocolAddress(self):
+        return self.targetProtocolAddress
+
+    def getRate(self):
+        return self.rate
+
+    
+
