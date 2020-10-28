@@ -15,7 +15,7 @@
 
 # MagicArrow/src/cui.py
 
-from package.function import isHardwareAddress
+from package.function import is_hardware_address
 from scapy.all import *
 
 # please check!! arp packet structure
@@ -28,61 +28,62 @@ from scapy.all import *
     Target Protocol Address (32bits)
 """
 class launcher():
-    def __init__(self, _operationCode, _senderHardwareAddress, _senderProtocolAddress, _targetHardwareAddress, _targetProtocolAddress, _rate):
-        self.operationCode = _operationCode
-        self.senderHardwareAddress = _senderHardwareAddress
-        self.senderProtocolAddress = _senderProtocolAddress
-        self.targetHardwareAddress = _targetHardwareAddress
-        self.targetProtocolAddress = _targetProtocolAddress
+    def __init__(self, _operation_code, _sender_hardware_address, _sender_protocol_address, _target_hardware_address,
+                 _target_protocol_address, _rate):
+        self.operation_code = _operation_code
+        self.sender_hardware_address = _sender_hardware_address
+        self.sender_protocol_address = _sender_protocol_address
+        self.target_hardware_address = _target_hardware_address
+        self.target_protocol_address = _target_protocol_address
         self.rate = _rate
         return
     # Scapy Usage : send arp packet
     # send(Ether(src = SOURCE_MAC, dst = DESTINATION_MAC) / ARP(op = OPERATION_CODE, hwsrc = SOURCE_HARDWARE_ADDRESS, hwdst = DESTINATION_HARDWARE_ADDRESS, psrc = SOURCE_PROTOCOL_ADDRESS, pdst = DESTINATION_HARDWARE_ADRESS), inter = RandNum(10, 40), loop = 0)
-    def launcherStart(self):
+    def launcher_start(self):
 
         return
 
-    def setOperationCode(self, _operationCode):
-        self.operationCode = _operationCode
+    def set_operation_code(self, _operation_code):
+        self.operation_code = _operation_code
         return
 
-    def setSenderHardwareAddress(self, _senderHardwareAddress):
-        self.senderHardwareAddress = _senderHardwareAddress
+    def set_sender_hardware_address(self, _sender_hardware_address):
+        self.sender_hardware_address = _sender_hardware_address
         return
 
-    def setSenderProtocolAddress(self, _senderProtocolAddress):
-        self.senderProtocolAddress = _senderProtocolAddress
+    def set_sender_protocol_address(self, _sender_protocol_address):
+        self.sender_protocol_address = _sender_protocol_address
         return
 
-    def setTargetHardwareAddress(self, _targetHardwareAddress):
-        self.targetHardwareAddress = _targetHardwareAddress
+    def set_target_hardware_address(self, _target_hardware_address):
+        self.target_hardware_address = _target_hardware_address
         return
 
-    def setTargetProtocolAddress(self, _targetProtocolAddress):
-        self.targetProtocolAddress = _targetProtocolAddress
+    def set_target_protocol_address(self, _target_protocol_address):
+        self.target_protocol_address = _target_protocol_address
         return
 
-    def setRate(self, _rate):
+    def set_rate(self, _rate):
         self.rate = _rate
         return
 
-    def getOperationCode(self):
-        return self.operationCode
+    def get_operation_code(self):
+        return self.operation_code
 
-    def getSenderHardwareAddress(self):
-        return self.senderHardwareAddress
+    def get_sender_hardware_address(self):
+        return self.sender_hardware_address
 
-    def getSenderProtocolAddress(self):
-        return self.senderProtocolAddress
+    def get_sender_protocol_address(self):
+        return self.sender_protocol_address
 
-    def getTargetHardwareAddress(self):
-        return self.targetHardwareAddress
+    def get_target_hardware_address(self):
+        return self.target_hardware_address
 
-    def getTragetProtocolAddress(self):
-        return self.targetProtocolAddress
+    def get_target_protocol_address(self):
+        return self.target_protocol_address
 
-    def getRate(self):
+    def get_rate(self):
         return self.rate
 
-    
+
 

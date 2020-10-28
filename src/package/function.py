@@ -24,12 +24,12 @@
             if hex data : return 1
             else : return 0
 """
-def isHexData(_data):
+def is_hex_data(_data):
     result = 0
-    tempKey = 0
-    hexData = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f']
+    temp_key = 0
+    hex_data = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f']
 
-    if _data in hexData:
+    if _data in hex_data:
         result = 1
         return result
     else:
@@ -46,9 +46,9 @@ def isHexData(_data):
             if hardware address : return 1
             else : return 0
 """
-def isHardwareAddress(_hardwareAddress):
+def is_hardware_address(_hardware_address):
     result = 1 # if hardware address : 1,   else : 0
-    length = len(_hardwareAddress)
+    length = len(_hardware_address)
 
     if length != 17:
         result = 0
@@ -56,10 +56,10 @@ def isHardwareAddress(_hardwareAddress):
 
     for i in range(1, length + 1):
         if (i % 3) == 0:
-            if _hardwareAddress[i - 1] != ':':
+            if _hardware_address[i - 1] != ':':
                 result = 0
                 return result
-        elif isHexData(_hardwareAddress[i - 1]) == 0:
+        elif is_hex_data(_hardware_address[i - 1]) == 0:
             result = 0
             return result
 
@@ -72,8 +72,8 @@ def isHardwareAddress(_hardwareAddress):
         :return
             Integer list [a, b, c, d]
 """
-def parseProtocolAddress(_protocolAddress):
-    length = len(_protocolAddress)
+def parse_protocol_address(_protocol_address):
+    length = len(_protocol_address)
     a = ""
     b = ""
     c = ""
@@ -81,25 +81,25 @@ def parseProtocolAddress(_protocolAddress):
 
     # return value : Integer a, b, c, d
     for i in range(0, length):
-        if _protocolAddress[i] == '.':
+        if _protocol_address[i] == '.':
             flags = i
             break
-        a = a + _protocolAddress[i]
+        a = a + _protocol_address[i]
 
     for i in range(flags + 1, length):
-        if _protocolAddress[i] == '.':
+        if _protocol_address[i] == '.':
             flags = i
             break
-        b = b + _protocolAddress[i]
+        b = b + _protocol_address[i]
 
     for i in range (flags + 1, length):
-        if _protocolAddress[i] == '.':
+        if _protocol_address[i] == '.':
             flags = i
             break
-        c = c + _protocolAddress[i]
+        c = c + _protocol_address[i]
 
     for i in range (flags + 1, length):
-        d = d + _protocolAddress[i]
+        d = d + _protocol_address[i]
 
     result = [a, b, c, d]
     return result
@@ -112,10 +112,10 @@ def parseProtocolAddress(_protocolAddress):
             if protocol address : return 1
             else : return 0
 """
-def isProtocolAddress(_protocolAddress):
+def is_protocol_address(_protocol_address):
     result = 1 # if protocol address : 1,   else : 0
-    length = len(_protocolAddress)
-    protocolAddressData = ['.', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    length = len(_protocol_address)
+    protocol_address_data = ['.', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
     # check length
     # example : 127.0.0.1.2.3.4214214123123
@@ -126,70 +126,70 @@ def isProtocolAddress(_protocolAddress):
     # check another character
     # example : 127.0:0.1
     for i in range(0, length):
-        if _protocolAddress[i] not in protocolAddressData:
+        if _protocol_address[i] not in protocol_address_data:
             result = 0
             return result
 
     # check dot position
     # example : .127.0.0.1
-    if _protocolAddress[0] == '.':
+    if _protocol_address[0] == '.':
         result = 0
         return result
-    elif _protocolAddress[length - 1] == '.':
+    elif _protocol_address[length - 1] == '.':
         result = 0
         return result
 
     # check dot count
     # example : 127.0.0....1
-    dotCount = 0
+    dot_count = 0
     for i in range(1, length + 1):
-        if _protocolAddress[i - 1] == '.':
-            dotCount += 1
-    if dotCount == 0 | dotCount > 3:
+        if _protocol_address[i - 1] == '.':
+            dot_count += 1
+    if dot_count == 0 | dot_count > 3:
         result = 0
         return result
 
     # check continued dot
     # example : 127..0.0.1
-    isPreDot = 0
+    is_pre_dot = 0
     for i in range(0, length):
-        if _protocolAddress[i] == '.':
-            if isPreDot == 1:
+        if _protocol_address[i] == '.':
+            if is_pre_dot == 1:
                 result = 0
                 return result
             else:
-                isPreDot = 1
+                is_pre_dot = 1
         else:
-            isPreDot = 0
+            is_pre_dot = 0
 
     # check 0 started number
     # example : 127.0.0.01
-    parseResult = parseProtocolAddress(_protocolAddress)
-    if (len(parseResult[0]) > 1) & (parseResult[0][0] == '0'):
+    parse_result = parse_protocol_address(_protocol_address)
+    if (len(parse_result[0]) > 1) & (parse_result[0][0] == '0'):
         result = 0
         return result
-    elif (len(parseResult[1]) > 1) & (parseResult[1][0] == '0'):
+    elif (len(parse_result[1]) > 1) & (parse_result[1][0] == '0'):
         result = 0
         return result
-    elif (len(parseResult[2]) > 1) & (parseResult[2][0] == '0'):
+    elif (len(parse_result[2]) > 1) & (parse_result[2][0] == '0'):
         result = 0
         return result
-    elif (len(parseResult[3]) > 1) & (parseResult[3][0] == '0'):
+    elif (len(parse_result[3]) > 1) & (parse_result[3][0] == '0'):
         result = 0
         return result
 
     # check number range
     # example : 256.255.255.255
-    if (int(parseResult[0]) < 0) | (int(parseResult[0]) > 255):
+    if (int(parse_result[0]) < 0) | (int(parse_result[0]) > 255):
         result = 0
         return result
-    elif (int(parseResult[1]) < 0) | (int(parseResult[1]) > 255):
+    elif (int(parse_result[1]) < 0) | (int(parse_result[1]) > 255):
         result = 0
         return result
-    elif (int(parseResult[2]) < 0) | (int(parseResult[2]) > 255):
+    elif (int(parse_result[2]) < 0) | (int(parse_result[2]) > 255):
         result = 0
         return result
-    elif (int(parseResult[3]) < 0) | (int(parseResult[3]) > 255):
+    elif (int(parse_result[3]) < 0) | (int(parse_result[3]) > 255):
         result = 0
         return result
 

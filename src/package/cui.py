@@ -26,7 +26,32 @@ class Cui():
         self.print_rights() # print copyright
         HIVE_KEY = 0
         HIVE_COMMAND = 0
+
         HIVE_COMMAND_OPTION = "?"
+
+        HIVE_COMMAND_MAIN_OPTION_SET = "set" # HIVE KEY = 10
+        HIVE_COMMAND_MAIN_OPTION_SERVICES = "services" # HIVE KEY = 20
+        HIVE_COMMAND_MAIN_OPTION_SHOW = "show" # HIVE KEY = 30
+        HIVE_COMMAND_MAIN_OPTION_EXIT = "exit" # HIVE KEY = 40
+
+        HIVE_COMMAND_SET_OPTION_ESMA = "ethernet-source-mac-address"
+        HIVE_COMMAND_SET_OPTION_EDMA = "ethernet-destination-mac-address"
+        HIVE_COMMAND_SET_OPTION_EPT = "ethernet-protocol-type"
+        HIVE_COMMAND_SET_OPTION_OC = "operation-code"
+        HIVE_COMMAND_SET_OPTION_SHA = "sender-hardware-address"
+        HIVE_COMMAND_SET_OPTION_SPA = "sender-protocol-address"
+        HIVE_COMMAND_SET_OPTION_THA = "target-hardware-address"
+        HIVE_COMMAND_SET_OPTION_TPA = "target-protocol-address"
+        HIVE_COMMAND_SET_OPTION_RATE = "rate"
+
+        HIVE_COMMAND_SERVICES_OPTION_START = "start"
+        HIVE_COMMAND_SERVICES_OPTION_STOP = "stop"
+
+        HIVE_COMMAND_SHOW_OPTION_CONFIG = "configuration"
+        HIVE_COMMAND_SHOW_OPTION_STATUS = "status"
+        HIVE_COMMAND_SHOW_OPTION_VERSION = "version"
+
+
 
         while True:
             # main cui engine code
@@ -35,6 +60,14 @@ class Cui():
 
             if HIVE_COMMAND == HIVE_COMMAND_OPTION:
                 HIVE_KEY = 1
+            elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SET:
+                HIVE_KEY
+            elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SHOW:
+
+            elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_EXIT:
+
+            else:
+
 
             if HIVE_COMMAND == "?":
                 self.print_main_option()
