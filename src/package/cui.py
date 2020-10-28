@@ -34,22 +34,22 @@ class Cui():
         HIVE_COMMAND_MAIN_OPTION_SHOW = "show" # HIVE KEY = 30
         HIVE_COMMAND_MAIN_OPTION_EXIT = "exit" # HIVE KEY = 40
 
-        HIVE_COMMAND_SET_OPTION_ESMA = "ethernet-source-mac-address"
-        HIVE_COMMAND_SET_OPTION_EDMA = "ethernet-destination-mac-address"
-        HIVE_COMMAND_SET_OPTION_EPT = "ethernet-protocol-type"
-        HIVE_COMMAND_SET_OPTION_OC = "operation-code"
-        HIVE_COMMAND_SET_OPTION_SHA = "sender-hardware-address"
-        HIVE_COMMAND_SET_OPTION_SPA = "sender-protocol-address"
-        HIVE_COMMAND_SET_OPTION_THA = "target-hardware-address"
-        HIVE_COMMAND_SET_OPTION_TPA = "target-protocol-address"
-        HIVE_COMMAND_SET_OPTION_RATE = "rate"
+        HIVE_COMMAND_SET_OPTION_ESMA = "ethernet-source-mac-address" # HIVE KEY = 11
+        HIVE_COMMAND_SET_OPTION_EDMA = "ethernet-destination-mac-address" # HIVE KEY = 12
+        HIVE_COMMAND_SET_OPTION_EPT = "ethernet-protocol-type" # HIVE KEY = 13
+        HIVE_COMMAND_SET_OPTION_OC = "operation-code" # HIVE KEY = 14
+        HIVE_COMMAND_SET_OPTION_SHA = "sender-hardware-address" # HIVE KEY = 15
+        HIVE_COMMAND_SET_OPTION_SPA = "sender-protocol-address" # HIVE KEY = 16
+        HIVE_COMMAND_SET_OPTION_THA = "target-hardware-address" # HIVE KEY = 17
+        HIVE_COMMAND_SET_OPTION_TPA = "target-protocol-address" # HIVE KEY = 18
+        HIVE_COMMAND_SET_OPTION_RATE = "rate" # HIVE KEY = 19
 
-        HIVE_COMMAND_SERVICES_OPTION_START = "start"
-        HIVE_COMMAND_SERVICES_OPTION_STOP = "stop"
+        HIVE_COMMAND_SERVICES_OPTION_START = "start" # HIVE KEY = 21
+        HIVE_COMMAND_SERVICES_OPTION_STOP = "stop" # HIVE KEY = 22
 
-        HIVE_COMMAND_SHOW_OPTION_CONFIG = "configuration"
-        HIVE_COMMAND_SHOW_OPTION_STATUS = "status"
-        HIVE_COMMAND_SHOW_OPTION_VERSION = "version"
+        HIVE_COMMAND_SHOW_OPTION_CONFIG = "configuration" # HIVE KEY = 31
+        HIVE_COMMAND_SHOW_OPTION_STATUS = "status" # HIVE KEY = 32
+        HIVE_COMMAND_SHOW_OPTION_VERSION = "version" # HIVE KEY = 33
 
 
 
