@@ -33,7 +33,7 @@ class Cui():
         HIVE_COMMAND_MAIN_OPTION_SHOW = "show" # HIVE KEY = 30
         HIVE_COMMAND_MAIN_OPTION_EXIT = "exit" # HIVE KEY = 40
 
-        HIVE_COMMAND_SET_OPTION = "?" # HIVE KEY = 101
+        HIVE_COMMAND_SET_OPTION = "?" # HIVE KEY = 100
         HIVE_COMMAND_SET_OPTION_ESMA = "ethernet-source-mac-address" # HIVE KEY = 11
         HIVE_COMMAND_SET_OPTION_EDMA = "ethernet-destination-mac-address" # HIVE KEY = 12
         HIVE_COMMAND_SET_OPTION_EPT = "ethernet-protocol-type" # HIVE KEY = 13
@@ -43,15 +43,18 @@ class Cui():
         HIVE_COMMAND_SET_OPTION_THA = "target-hardware-address" # HIVE KEY = 17
         HIVE_COMMAND_SET_OPTION_TPA = "target-protocol-address" # HIVE KEY = 18
         HIVE_COMMAND_SET_OPTION_RATE = "rate" # HIVE KEY = 19
+        HIVE_COMMAND_SET_OPTION_QUIT = "quit" # HIVE KEY = 109
 
-        HIVE_COMMAND_SERVICE_OPTION = "?" # HIVE KEY = 201
+        HIVE_COMMAND_SERVICE_OPTION = "?" # HIVE KEY = 200
         HIVE_COMMAND_SERVICES_OPTION_START = "start" # HIVE KEY = 21
         HIVE_COMMAND_SERVICES_OPTION_STOP = "stop" # HIVE KEY = 22
+        HIVE_COMMAND_SERVICES_OPTION_QUIT = "quit" # HIVE KEY = 209
 
-        HIVE_COMMAND_SHOW_OPTION = "?" # HIVE KEY = 301
+        HIVE_COMMAND_SHOW_OPTION = "?" # HIVE KEY = 300
         HIVE_COMMAND_SHOW_OPTION_CONFIG = "configuration" # HIVE KEY = 31
         HIVE_COMMAND_SHOW_OPTION_STATUS = "status" # HIVE KEY = 32
         HIVE_COMMAND_SHOW_OPTION_VERSION = "version" # HIVE KEY = 33
+        HIVE_COMMAND_SHOW_OPTION_QUIT = "quit" # HIVE KEY = 309
 
         while True:
             # main cui engine code
@@ -59,26 +62,51 @@ class Cui():
 
             HIVE_MAIN_COMMAND = input()
 
-            if HIVE_MAIN_COMMAND ==  HIVE_COMMAND_MAIN_OPTION:
+            # main mode
+            if HIVE_MAIN_COMMAND ==  HIVE_COMMAND_MAIN_OPTION: # print main option
                 HIVE_KEY = 1
                 self.print_main_option()
 
-
-            elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SET:
+            # set mode
+            elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SET: # select set command
                 HIVE_KEY = 10
                 HIVE_COMMAND_SET_COMMAND = input()
-                if HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION:
+                if HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION: # print set option
+                    HIVE_KEY = 101
                     self.print_set_option()
+                elif HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION_ESMA: # set ethernet source mac address
+                    HIVE_KEY = 11
+                elif HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION_EDMA: # set ethernet destination mac address
+                    HIVE_KEY = 12
+                elif HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION_EPT: # set ethernet protocol type
+                    HIVE_KEY = 13
+                elif HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION_OC: # set operation code
+                    HIVE_KEY = 14
+                elif HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION_SHA: # set sender hardware address
+                    HIVE_KEY = 15
+                elif HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION_SPA: # set sender protocol address
+                    HIVE_KEY = 16
+                elif HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION_THA: # set target hardware address
+                    HIVE_KEY = 17
+                elif HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION_TPA: # set target hardware address
+                    HIVE_KEY = 18
+                elif HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION_RATE: # set rate
+                    HIVE_KEY = 19
+                elif HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION_QUIT: # quit
+                    HIVE_KEY = 109
 
+            # services mode
             elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SERVICES:
                 HIVE_KEY = 20
 
+            # show mode
             elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SHOW:
                 HIVE_KEY = 30
 
+            # exit mode
             elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_EXIT:
                 HIVE_KEY = 40
-
+                break
             else:
                 continue
 
