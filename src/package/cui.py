@@ -70,12 +70,17 @@ class Cui():
                 if HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION:
                     self.print_set_option()
 
+            elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SERVICES:
+                HIVE_KEY = 20
 
             elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SHOW:
+                HIVE_KEY = 30
 
             elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_EXIT:
+                HIVE_KEY = 40
 
             else:
+                continue
 
 
             if HIVE_COMMAND == "?":
