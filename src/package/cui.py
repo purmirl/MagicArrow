@@ -115,16 +115,28 @@ class Cui():
 
             # show mode
             elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SHOW:
-                HIVE_KEY = 30
-                HIVE_COMMAND_SHOW_COMMAND = input()
-                if HIVE_COMMAND_SHOW_COMMAND == HIVE_COMMAND_SHOW_OPTION: # print show option
-                    HIVE_KEY = 301
-                    self.print_show_option()
+                while True:
+                    HIVE_KEY = 30
+                    HIVE_COMMAND_SHOW_COMMAND = input()
+                    if HIVE_COMMAND_SHOW_COMMAND == HIVE_COMMAND_SHOW_OPTION: # print show option
+                        HIVE_KEY = 301
+                        self.print_show_option()
+                    elif HIVE_COMMAND_SHOW_COMMAND == HIVE_COMMAND_SHOW_OPTION_CONFIG: # show arp packet config
+                        HIVE_KEY = 31
+                    elif HIVE_COMMAND_SHOW_COMMAND == HIVE_COMMAND_SHOW_OPTION_STATUS: # show services status
+                        HIVE_KEY = 32
+                    elif HIVE_COMMAND_SHOW_COMMAND == HIVE_COMMAND_SHOW_OPTION_VERSION: # show software version
+                        HIVE_KEY = 33
+                    elif HIVE_COMMAND_SHOW_COMMAND == HIVE_COMMAND_SHOW_OPTION_QUIT: # quit
+                        HIVE_KEY = 309
+                        break
 
             # exit mode
             elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_EXIT:
                 HIVE_KEY = 40
                 break
+
+            # else
             else:
                 continue
 
