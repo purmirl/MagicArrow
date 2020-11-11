@@ -25,7 +25,7 @@ class Cui():
     def cui_engin(self):
         self.print_rights() # print copyright
         HIVE_KEY = 0
-        HIVE_COMMAND = 0
+        HIVE_MAIN_COMMAND = 0
 
         HIVE_COMMAND_MAIN_OPTION = "?" # HIVE KEY = 1
         HIVE_COMMAND_MAIN_OPTION_SET = "set" # HIVE KEY = 10
@@ -60,15 +60,15 @@ class Cui():
             # main cui engine code
             # self.print_main_command_line() # print main command line
 
+            HIVE_MAIN_COMMAND = ""
             HIVE_MAIN_COMMAND = input("main@magicarrow:~# ")
-
             # main mode
             if HIVE_MAIN_COMMAND ==  HIVE_COMMAND_MAIN_OPTION: # print main option
                 HIVE_KEY = 1
                 self.print_main_option()
 
             # set mode
-            elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SET: # select set command
+            elif HIVE_MAIN_COMMAND == HIVE_COMMAND_MAIN_OPTION_SET: # select set command
                 while True:
                     HIVE_KEY = 10
                     HIVE_COMMAND_SET_COMMAND = input("set@magicarrow:~# ")
@@ -98,7 +98,7 @@ class Cui():
                         break
 
             # services mode
-            elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SERVICES:
+            elif HIVE_MAIN_COMMAND == HIVE_COMMAND_MAIN_OPTION_SERVICES:
                 while True:
                     HIVE_KEY = 20
                     HIVE_COMMAND_SERVICES_COMMAND = input("services@magicarrow:~# ")
@@ -114,7 +114,7 @@ class Cui():
                         break
 
             # show mode
-            elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SHOW:
+            elif HIVE_MAIN_COMMAND == HIVE_COMMAND_MAIN_OPTION_SHOW:
                 while True:
                     HIVE_KEY = 30
                     HIVE_COMMAND_SHOW_COMMAND = input("show@magicarrow:~# ")
@@ -132,7 +132,7 @@ class Cui():
                         break
 
             # exit mode
-            elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_EXIT:
+            elif HIVE_MAIN_COMMAND == HIVE_COMMAND_MAIN_OPTION_EXIT:
                 HIVE_KEY = 40
                 break
 
@@ -140,12 +140,6 @@ class Cui():
             else:
                 continue
 
-
-            if HIVE_COMMAND == "?":
-                self.print_main_option()
-             
-            if HIVE_KEY == -1:
-               break
 
         return
 
