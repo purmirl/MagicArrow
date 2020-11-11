@@ -4,6 +4,7 @@
     <list default="true" id="4714e883-4ec1-4db6-a433-14f5c0845ff1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/package/cui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/package/cui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/package/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MagicArrow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,8 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -444,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604493730064</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="cui.py is modified.">
+      <created>1604494342172</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1604494342172</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -471,30 +479,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="cui.py is modified." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="38" key="CommitChangelistDialog2" timestamp="1604493728868">
+    <state x="525" y="38" key="CommitChangelistDialog2" timestamp="1604494341107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="525" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604493728868" />
-    <state width="1897" height="186" key="GridCell.Tab.0.bottom" timestamp="1599583058077">
+    <state x="525" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604494341107" />
+    <state width="1897" height="186" key="GridCell.Tab.0.bottom" timestamp="1605095334567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599583058077" />
-    <state width="1897" height="186" key="GridCell.Tab.0.center" timestamp="1599583058077">
+    <state width="1897" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605095334567" />
+    <state width="1897" height="186" key="GridCell.Tab.0.center" timestamp="1605095334566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599583058077" />
-    <state width="1897" height="186" key="GridCell.Tab.0.left" timestamp="1599583058077">
+    <state width="1897" height="186" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605095334566" />
+    <state width="1897" height="186" key="GridCell.Tab.0.left" timestamp="1605095334566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599583058077" />
-    <state width="1897" height="186" key="GridCell.Tab.0.right" timestamp="1599583058077">
+    <state width="1897" height="186" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605095334566" />
+    <state width="1897" height="186" key="GridCell.Tab.0.right" timestamp="1605095334566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599583058077" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604232977954">
+    <state width="1897" height="186" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605095334566" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604494353282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604232977954" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604494353282" />
     <state x="764" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604494319890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -22,8 +22,9 @@ from package import cui as cui
 
 def main():
 
-    cuiEngine = cui.Cui()
-    cuiEngine.print_rights()
+    main_cui_engine = cui.Cui()
+    main_cui_engine.cui_engin()
+
     return
 
 # main code start point

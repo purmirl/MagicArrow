@@ -58,9 +58,9 @@ class Cui():
 
         while True:
             # main cui engine code
-            self.print_main_command_line() # print main command line
+            # self.print_main_command_line() # print main command line
 
-            HIVE_MAIN_COMMAND = input()
+            HIVE_MAIN_COMMAND = input("main@magicarrow:~# ")
 
             # main mode
             if HIVE_MAIN_COMMAND ==  HIVE_COMMAND_MAIN_OPTION: # print main option
@@ -71,7 +71,7 @@ class Cui():
             elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SET: # select set command
                 while True:
                     HIVE_KEY = 10
-                    HIVE_COMMAND_SET_COMMAND = input()
+                    HIVE_COMMAND_SET_COMMAND = input("set@magicarrow:~# ")
                     if HIVE_COMMAND_SET_COMMAND == HIVE_COMMAND_SET_OPTION: # print set option
                         HIVE_KEY = 101
                         self.print_set_option()
@@ -101,7 +101,7 @@ class Cui():
             elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SERVICES:
                 while True:
                     HIVE_KEY = 20
-                    HIVE_COMMAND_SERVICES_COMMAND = input()
+                    HIVE_COMMAND_SERVICES_COMMAND = input("services@magicarrow:~# ")
                     if HIVE_COMMAND_SERVICES_COMMAND == HIVE_COMMAND_SERVICES_OPTION: # print services option
                         HIVE_KEY = 201
                         self.print_services_option()
@@ -117,7 +117,7 @@ class Cui():
             elif HIVE_COMMAND == HIVE_COMMAND_MAIN_OPTION_SHOW:
                 while True:
                     HIVE_KEY = 30
-                    HIVE_COMMAND_SHOW_COMMAND = input()
+                    HIVE_COMMAND_SHOW_COMMAND = input("show@magicarrow:~# ")
                     if HIVE_COMMAND_SHOW_COMMAND == HIVE_COMMAND_SHOW_OPTION: # print show option
                         HIVE_KEY = 301
                         self.print_show_option()
@@ -166,10 +166,11 @@ class Cui():
             exit
     """
     def print_main_option(self):
-        MAIN_OPTION = "set : set packet configuration \n " \
-                      "services : program's operation services \n " \
-                      "show : show program status \n" \
-                      "exit : program exit \n" \
+        MAIN_OPTION = "\n" \
+                      " set : set packet configuration \n" \
+                      " services : program's operation services \n" \
+                      " show : show program status \n" \
+                      " exit : program exit \n" \
                       ""
         print(MAIN_OPTION)
         return
@@ -186,15 +187,16 @@ class Cui():
             rate
     """
     def print_set_option(self):
-        ARP_OPTION = "ethernet-source-mac-address : set ethernet source mac address (mac or default) \n" \
-                     "ethernet-destination-mac-address : set ethernet destination mac address (mac or default) \n" \
-                     "ethernet-protocol-type : set ethernet protocol type (arp, rarp) \n" \
-                     "operation-code : set arp operation code \n" \
-                     "sender-hardware-address : set sender hardware address (mac) \n" \
-                     "sender-protocol-address : set sender protocol address (ip \n" \
-                     "target-hardware-address : set target hardware address (mac) \n" \
-                     "target-protocol-address : set target protocol address (ip) \n" \
-                     "rate : packet launch rate per 1 second \n" \
+        ARP_OPTION = "\n" \
+                     " ethernet-source-mac-address : set ethernet source mac address (mac or default) \n" \
+                     " ethernet-destination-mac-address : set ethernet destination mac address (mac or default) \n" \
+                     " ethernet-protocol-type : set ethernet protocol type (arp, rarp) \n" \
+                     " operation-code : set arp operation code \n" \
+                     " sender-hardware-address : set sender hardware address (mac) \n" \
+                     " sender-protocol-address : set sender protocol address (ip \n" \
+                     " target-hardware-address : set target hardware address (mac) \n" \
+                     " target-protocol-address : set target protocol address (ip) \n" \
+                     " rate : packet launch rate per 1 second \n" \
                      ""
         print(ARP_OPTION)
         return
@@ -204,8 +206,9 @@ class Cui():
             stop : packet launch stop
     """
     def print_services_option(self):
-        SERVICES_OPTION = "start : packet launch start \n" \
-                          "stop : packet launch stop \n" \
+        SERVICES_OPTION = "\n" \
+                          " start : packet launch start \n" \
+                          " stop : packet launch stop \n" \
                           ""
         print(SERVICES_OPTION)
         return
@@ -216,9 +219,10 @@ class Cui():
             version
     """
     def print_show_option(self):
-        SHOW_OPTION = "configuration : show arp configuration \n" \
-                      "status : show services status \n" \
-                      "version : show software version \n" \
+        SHOW_OPTION = "\n" \
+                      " configuration : show arp configuration \n" \
+                      " status : show services status \n" \
+                      " version : show software version \n" \
                       ""
         print(SHOW_OPTION)
         return
