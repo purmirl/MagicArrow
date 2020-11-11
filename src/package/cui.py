@@ -25,7 +25,7 @@ class Cui():
     def cui_engin(self):
         self.print_rights() # print copyright
         HIVE_KEY = 0
-        HIVE_MAIN_COMMAND = 0
+        HIVE_MAIN_COMMAND = ""
 
         HIVE_COMMAND_MAIN_OPTION = "?" # HIVE KEY = 1
         HIVE_COMMAND_MAIN_OPTION_SET = "set" # HIVE KEY = 10
