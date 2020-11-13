@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.main (2)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -114,13 +114,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592645526413</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Studying Python Scapy">
-      <created>1592731869434</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1592731869434</updated>
     </task>
     <task id="LOCAL-00003" summary="Studying Python Scapy">
       <created>1592732463643</created>
@@ -458,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605097951814</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="cui.py is modified. (making)">
+      <created>1605103808066</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1605103808067</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -482,13 +482,18 @@
     <MESSAGE value="launcher.py is modified" />
     <MESSAGE value="function name is modified, and HIVE COMMAND is added." />
     <MESSAGE value="cui.py is modified." />
-    <option name="LAST_COMMIT_MESSAGE" value="cui.py is modified." />
+    <MESSAGE value="cui.py is modified. (making)" />
+    <option name="LAST_COMMIT_MESSAGE" value="cui.py is modified. (making)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="38" key="CommitChangelistDialog2" timestamp="1605097950766">
+    <state x="844" y="380" key="#Notifications" timestamp="1605268755321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="525" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605097950766" />
+    <state x="844" y="380" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1605268755321" />
+    <state x="525" y="38" key="CommitChangelistDialog2" timestamp="1605103806905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="525" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605103806905" />
     <state width="1897" height="224" key="GridCell.Tab.0.bottom" timestamp="1605101977491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -521,10 +526,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1897" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605097476738" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604494353282">
+    <state x="460" y="163" key="SettingsEditor" timestamp="1605279503327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604494353282" />
+    <state x="460" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605279503327" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605103826404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605103826404" />
     <state x="764" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604494319890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

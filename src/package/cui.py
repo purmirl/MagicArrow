@@ -16,6 +16,7 @@
 
 # MagicArrow/src/cui.py
 
+# import readline
 
 class Cui():
 
@@ -219,4 +220,8 @@ class Cui():
                       " version : show software version \n" \
                       ""
         print(SHOW_OPTION)
+        return
+
+    def get_command(self):
+
         return
