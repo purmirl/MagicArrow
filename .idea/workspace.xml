@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4714e883-4ec1-4db6-a433-14f5c0845ff1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/package/thread_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package/launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/package/launcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/package/thread_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/package/thread_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main (2)">
+  <component name="RunManager" selected="Python.thread_test">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MagicArrow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,8 +97,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="thread_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MagicArrow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/package" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/package/thread_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.thread_test" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
@@ -116,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592645526413</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Studying Python Class">
-      <created>1592835343373</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1592835343373</updated>
     </task>
     <task id="LOCAL-00006" summary="cui.py is added.">
       <created>1592835967736</created>
@@ -460,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605283275245</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="thinking about the launcher structure.">
+      <created>1608096117364</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1608096117365</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -485,37 +506,38 @@
     <MESSAGE value="function name is modified, and HIVE COMMAND is added." />
     <MESSAGE value="cui.py is modified." />
     <MESSAGE value="cui.py is modified. (making)" />
-    <option name="LAST_COMMIT_MESSAGE" value="cui.py is modified. (making)" />
+    <MESSAGE value="thinking about the launcher structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="thinking about the launcher structure." />
   </component>
   <component name="WindowStateProjectService">
     <state x="844" y="380" key="#Notifications" timestamp="1605268755321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="844" y="380" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1605268755321" />
-    <state x="525" y="38" key="CommitChangelistDialog2" timestamp="1605283274099">
+    <state x="525" y="38" key="CommitChangelistDialog2" timestamp="1608096116065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="525" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605283274099" />
+    <state x="525" y="38" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608096116065" />
     <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1605708471567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605708471567" />
-    <state width="1897" height="211" key="GridCell.Tab.0.bottom" timestamp="1605708092042">
+    <state width="1897" height="441" key="GridCell.Tab.0.bottom" timestamp="1608097104063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605708092042" />
-    <state width="1897" height="211" key="GridCell.Tab.0.center" timestamp="1605708092041">
+    <state width="1897" height="441" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608097104063" />
+    <state width="1897" height="441" key="GridCell.Tab.0.center" timestamp="1608097104062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605708092041" />
-    <state width="1897" height="211" key="GridCell.Tab.0.left" timestamp="1605708092041">
+    <state width="1897" height="441" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608097104062" />
+    <state width="1897" height="441" key="GridCell.Tab.0.left" timestamp="1608097104062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605708092041" />
-    <state width="1897" height="211" key="GridCell.Tab.0.right" timestamp="1605708092041">
+    <state width="1897" height="441" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608097104062" />
+    <state width="1897" height="441" key="GridCell.Tab.0.right" timestamp="1608097104063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605708092041" />
+    <state width="1897" height="441" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608097104063" />
     <state width="1897" height="211" key="GridCell.Tab.1.bottom" timestamp="1605708092042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
