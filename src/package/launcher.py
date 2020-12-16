@@ -38,8 +38,16 @@ class launcher():
         self.rate = _rate
         return
     # Scapy Usage : send arp packet
-    # send(Ether(src = SOURCE_MAC, dst = DESTINATION_MAC) / ARP(op = OPERATION_CODE, hwsrc = SOURCE_HARDWARE_ADDRESS, hwdst = DESTINATION_HARDWARE_ADDRESS, psrc = SOURCE_PROTOCOL_ADDRESS, pdst = DESTINATION_HARDWARE_ADRESS), inter = RandNum(10, 40), loop = 0)
+    # send(Ether(src = SOURCE_MAC, dst = DESTINATION_MAC) / ARP(op = OPERATION_CODE,
+    # hwsrc = SOURCE_HARDWARE_ADDRESS, hwdst = DESTINATION_HARDWARE_ADDRESS,
+    # psrc = SOURCE_PROTOCOL_ADDRESS, pdst = DESTINATION_HARDWARE_ADRESS),
+    # inter = RandNum(10, 40), loop = 0)
     def launcher_start(self):
+
+        return
+
+    # thread
+    def send_packet(self):
 
         return
 
