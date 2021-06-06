@@ -11,6 +11,17 @@
     * main function code file
 """
 
+""" @usage protocol
+Layer Network
+. ARP, IP
+
+Layer Transport
+. TCP, UDP
+
+Layer Application
+. DNS, HTTP, NTP, TELNET
+"""
+
 from package import cui as cui
 
 """ @main function

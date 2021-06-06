@@ -1,3 +1,5 @@
+20210606----------------------------------------------------------------------------------------------------------------
+::src/package/launcher.py backup
 """
  Copyright 2020 PeTrA. All rights reserved.
  . Python Project Structure Repository;
@@ -43,7 +45,7 @@ class launcher():
     # psrc = SOURCE_PROTOCOL_ADDRESS, pdst = DESTINATION_HARDWARE_ADDRESS,
     # inter = RandNum(10, 40), loop = 0)
     def launcher_start(self):
-        
+
         return
 
     # thread
@@ -92,6 +94,4 @@ class launcher():
 
     def get_rate(self):
         return self.rate
-
-
-
+----------------------------------------------------------------------------------------------------------------20210606
